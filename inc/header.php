@@ -1,3 +1,12 @@
+<?php
+// checking if the title is set to set a default 
+if(!isset($title)){
+$title ="";
+} 
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +16,5 @@
     <title><?=$title;?></title>
 </head>
 <body>
-    <h1>Argumentless function</h1>
-       
+    
+       <h1><?=$title;?></h1>

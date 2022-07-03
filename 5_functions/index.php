@@ -32,7 +32,7 @@ $b = function()use($a){
 }
 ?>
 
-
+    <h1>Argumentless function</h1>
     <p>1 + 2 is <?= sum();?></p>
 
     <h1>Function with arguments</h1>
