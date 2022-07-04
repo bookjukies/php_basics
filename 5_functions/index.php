@@ -30,15 +30,11 @@ $b = function()use($a){
 
     echo $b();
 }
+
+    function output($value) {
+        echo '<pre>';
+        print_r($value);
+        echo '</pre>';
+    }
 ?>
 
-    <h1>Argumentless function</h1>
-    <p>1 + 2 is <?= sum();?></p>
-
-    <h1>Function with arguments</h1>
-    <p>1 + 2 is <?= add(1,2);?></p>
-
-    <h1><?=test();?></h1>
-    <h1><?=theuse(5);?></h1>
-</body>
-</html>
