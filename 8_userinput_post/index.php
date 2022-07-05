@@ -6,7 +6,6 @@ $title='Post user input';
 
 include('./../inc/header.php');
 require_once('./../5_functions/index.php');
-
 if($_SERVER['REQUEST_METHOD']=="POST"){
     $email = filter_input(INPUT_POST,'email',FILTER_VALIDATE_EMAIL);
     
@@ -17,6 +16,8 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         $status = "sent";
     }
 }
+
+
 ?>
     <div class="container">
       <div class="row">
